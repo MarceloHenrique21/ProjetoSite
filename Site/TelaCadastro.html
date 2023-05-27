@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tela de Cadastro</title>
+  <link rel="stylesheet" href="./assets/css/CadastroStyle.css">
+</head>
+
+<body>
+
+  <section class="container">
+    <h1>Cadastro</h1>
+    
+    <form action="TelaLogin.html" method="POST" class='formulario'>
+
+      <div class="form-group"> 
+      <label>Nome</label>
+      <input type="text" class="nome validar" class="n">
+
+      <label>Sobrenome</label>
+      <input type="text" class="sobrenome validar" class="s">
+
+      <label>CPF</label>
+      <input type="text" class="cpf validar" class="c">
+
+      <label>Usuário</label>
+      <input type="text" class="usuario validar" class="user">
+
+      <label>Senha</label>
+      <input type="password" class="senha validar" class="se">
+
+      <label>Repetir Senha</label>
+      <input type="password" class="repetir-senha validar">
+      </div>
+
+      <div class="button-container">
+      <button type="submit"> <a href="TelaLogin.html"></a> Enviar</button>
+      </div>
+    </form>
+  </section>
+
+  <script src="./assets/js/validaCPF.js"></script>
+  <script src="./assets/js/Cadastro.js"></script>
+  
+</body>
+
+</html>
